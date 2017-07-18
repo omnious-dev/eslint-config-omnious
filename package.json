@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-omnious",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the Omnious JavaScript style guide",
+  "homepage": "https://github.com/omnious-dev/eslint-config-omnious",
+  "author": "Omnious Dev Team <dev@omnious.com> (https://www.omnious.com)",
+  "contributors": [
+    {
+      "name": "Claud D. Park",
+      "url": "http://www.posquit0.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnious-dev/eslint-config-omnious"
+  },
+  "bugs": {
+    "url": "https://github.com/omnious-dev/eslint-config-omnious/issues"
+  },
+  "keywords": [
+    "omnious",
+    "javascript",
+    "styleguide",
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  }
+}
