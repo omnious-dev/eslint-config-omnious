@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Omnious JavaScript style guide
+  ESLint <a href="http://eslint.org/docs/developer-guide/shareable-configs.html">shareable config</a> for the Omnious JavaScript style guide
 </p>
 
 <div align="center">
