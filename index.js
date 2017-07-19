@@ -12,6 +12,12 @@ module.exports = {
   },
   rules: {
     /*
+     * Possible Errors
+     */
+    // Disallow the use of console
+    no-console: 'warn',
+
+    /*
      * Best Practices
      */
     // Enforce consistent brace style for all control statements
