@@ -15,20 +15,20 @@ module.exports = {
      * Possible Errors
      */
     // Disallow the use of console
-    no-console: 'warn',
+    'no-console': 'warn',
 
     /*
      * Best Practices
      */
     // Enforce consistent brace style for all control statements
-    curly: ['error', 'multi-or-nest', 'consistent'],
+    'curly': ['error', 'multi-or-nest', 'consistent'],
     // Require the use of === and !==
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'eqeqeq': ['error', 'always', { null: 'ignore' }],
 
     /*
      * Strict Mode
      */
     // Require or disallow strict mode directives
-    strict: 'error'
+    'strict': 'error'
   }
 };
