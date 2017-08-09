@@ -24,6 +24,8 @@ module.exports = {
     'curly': ['error', 'multi-or-nest', 'consistent'],
     // Require the use of === and !==
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
+    // Require the use of let or const
+    'no-var': ['error'],
 
     /*
      * Strict Mode
