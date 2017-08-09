@@ -16,6 +16,7 @@ module.exports = {
      */
     // Disallow the use of console
     'no-console': 'warn',
+    'valid-jsdoc': 'error',
 
     /*
      * Best Practices
@@ -24,6 +25,12 @@ module.exports = {
     'curly': ['error', 'multi-or-nest', 'consistent'],
     // Require the use of === and !==
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
+
+    /*
+     * ECMAScript 6
+     */
+    // Require let or const instead of var
+    'no-var': 'error',
 
     /*
      * Strict Mode
