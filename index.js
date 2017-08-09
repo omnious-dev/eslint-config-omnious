@@ -22,9 +22,9 @@ module.exports = {
      * Best Practices
      */
     // Enforce consistent brace style for all control statements
-    curly: ['error', 'multi-or-nest', 'consistent'],
+    'curly': ['error', 'multi-or-nest', 'consistent'],
     // Require the use of === and !==
-    eqeqeq: ['error', 'always', { null: 'ignore' }],
+    'eqeqeq': ['error', 'always', { null: 'ignore' }],
 
     /*
      * ECMAScript 6
@@ -36,6 +36,6 @@ module.exports = {
      * Strict Mode
      */
     // Require or disallow strict mode directives
-    strict: 'error'
+    'strict': 'error'
   }
 };
