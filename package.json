@@ -7,7 +7,12 @@
   "contributors": [
     {
       "name": "Claud D. Park",
+      "email": "posquit0.bj@gmail.com",
       "url": "http://www.posquit0.com"
+    },
+    {
+      "name": "Euihyun Yang",
+      "email": "ykd1217@gmail.com"
     }
   ],
   "license": "MIT",
@@ -35,6 +40,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "4.4.1"
   }
 }
