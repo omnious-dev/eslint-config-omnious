@@ -1,0 +1,9 @@
+coverage
+test
+.circle*
+.coveralls.yml
+.editorconfig
+.eslintrc*
+.idea
+.npmignore
+.travis*
