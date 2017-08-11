@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-omnious",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "ESLint shareable config for the Omnious JavaScript style guide",
   "homepage": "https://github.com/omnious-dev/eslint-config-omnious",
   "author": "Omnious Dev Team <dev@omnious.com> (https://www.omnious.com)",
