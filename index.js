@@ -13,7 +13,7 @@ module.exports = {
      * Possible Errors
      */
     // Disallow infinite `for` loop
-    'for-loop': 'error',
+    'for-direction': 'error',
     // Enforce a return statement is present in getters
     'getter-return': ['error', { allowImplicit: true }],
     // Disallow comparing against -0
