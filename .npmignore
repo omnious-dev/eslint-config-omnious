@@ -1,8 +1,9 @@
-test
 coverage
-.coveralls.yml
-.eslintrc*
-.travis*
+test
 .circle*
-.idea
+.coveralls.yml
 .editorconfig
+.eslintrc*
+.idea
+.npmignore
+.travis*
