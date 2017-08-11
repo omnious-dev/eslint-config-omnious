@@ -1,0 +1,8 @@
+test
+coverage
+.coveralls.yml
+.eslintrc*
+.travis*
+.circle*
+.idea
+.editorconfig
