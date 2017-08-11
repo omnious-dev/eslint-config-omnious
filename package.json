@@ -35,6 +35,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "4.4.1"
   }
 }
