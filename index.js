@@ -44,7 +44,7 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     // Disallow unreachable code
     'no-unreachable': 'error',
-    // TODO: apply options
+    // TODO: Apply more options
     // Enforce JSDoc comment style
     'valid-jsdoc': 'error',
     // Enforce comparing `typeof` expressions against valid strings
@@ -98,20 +98,45 @@ module.exports = {
     // Enforce consistent brace style for blocks
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     // TODO: Enforce camelcase naming convention
-    // 'camelcase': 'error',
+    'camelcase': 'off',
     // Enforce capitalization of the first letter of a comment
     'capitalized-comments': 'error',
     // TODO: Require trailing commas
-    // 'comma-dangle': 'error',
+    'comma-dangle': 'off',
     // Enforce consistent spacing before and after commas
     'comma-spacing': ['error', { before: false, after: true }],
     // Enforce consistent comma style
     'comma-style': 'error',
     // Enforce consistent spacing inside computed property brackets
     'computed-property-spacing': 'error',
+    // Require newline at the end of files
+    'eol-last': ['error', 'always'],
+    // Disallow spacing between function identifiers and their invocations
+    'func-call-spacing': ['error', 'never'],
+    // Enforce minimum and maximum identifier lengths
+    'id-length': ['error', { max: 64 }],
+    // Enforce consistent indentation
+    // TODO: Apply more options
+    'indent': ['error', 2, {
+      'SwitchCase': 1,
+      'ArrayExpression': 1,
+      'ObjectExpression': 1,
+      'ImportDeclaration': 1
+    }],
+    // Enforce consistent spacing between keys and values in object literals
+    'key-spacing': ['error', {
+      // Disallow spaces between the key and the colon
+      beforeColon: false,
+      // Require at least one space between the colon and the value
+      afterColon: true,
+      // Enforce exactly one space before or after colons
+      mode: 'strict'
+    }],
     // Enforce position of line comments
     'line-comment-position': ['error', { position: 'above' }],
+    // Enforce consistent linebreak style
     'linebreak-style': ['error', 'unix'],
+    // Enforce a maximum depth that blocks can be nested
     'max-depth': ['warn', 4],
     // TODO: Enforce a maximum line length
     // 'max-len': ['error', 100],
@@ -137,6 +162,32 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
     // Disallow nested ternary expressions
     'no-nested-ternary': 'error',
+    // Enforce consistent spacing inside braces
+    'object-curly-spacing': ['error', 'always'],
+    // Enforce placing object properties on separate lines
+    'object-property-newline': ['error', {
+      // Allow all keys and values to be on the same line
+      allowMultiplePropertiesPerLine: true
+    }],
+    // Allow just one var statement per function
+    'one-var': ['error', 'never'],
+    // Require a newline around variable declaration
+    'one-var-declaration-per-line': ['error', 'always'],
+    // Require assignment operator shorthand where possible
+    'operator-assignment': ['error', 'always'],
+    // Enforce operators to be placed before or after line breaks
+    'operator-linebreak': 'off',
+    // Disallow padding within blocks
+    'padded-blocks': ['error', 'never'],
+    // Require quotes around object literal property names
+    'quote-props': ['error', 'consistent'],
+    // Enforce the consistent use of either backticks, double, or single quotes
+    'quotes': ['error', 'single', {
+      // Allow to use other quotes when the string contains a quote
+      avoidEscape: true
+    }],
+    // Require JSDoc comments
+    'require-jsdoc': 'off',
     // Require semicolons instead of ASI
     'semi': ['error', 'always'],
 
