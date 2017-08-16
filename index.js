@@ -91,6 +91,52 @@ module.exports = {
     /*
      * Stylistic Issues
      */
+    // Enforce consistent spacing inside array brackets
+    'array-bracket-spacing': 'error',
+    // Enforce consistent spacing inside single-line blocks
+    'block-spacing': 'error',
+    // Enforce consistent brace style for blocks
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    // TODO: Enforce camelcase naming convention
+    // 'camelcase': 'error',
+    // Enforce capitalization of the first letter of a comment
+    'capitalized-comments': 'error',
+    // TODO: Require trailing commas
+    // 'comma-dangle': 'error',
+    // Enforce consistent spacing before and after commas
+    'comma-spacing': ['error', { before: false, after: true }],
+    // Enforce consistent comma style
+    'comma-style': 'error',
+    // Enforce consistent spacing inside computed property brackets
+    'computed-property-spacing': 'error',
+    // Enforce position of line comments
+    'line-comment-position': ['error', { position: 'above' }],
+    'linebreak-style': ['error', 'unix'],
+    'max-depth': ['warn', 4],
+    // TODO: Enforce a maximum line length
+    // 'max-len': ['error', 100],
+    // Require constructor names to begin with a capital letter
+    'new-cap': ['error', { newIsCap: true }],
+    // Require parentheses when invoking a constructor with no arguments
+    'new-parens': 'error',
+    // Require a newline after each call in a method chain
+    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+    // Disallow inline comments after code
+    // NOTE: Replacement of `line-comment-position`
+    'no-inline-comments': 'error',
+    // Disallow if statements as the only statement in else blocks
+    'no-lonely-if': 'error',
+    // Disallow mixed binary operators
+    // TODO: Review options
+    'no-mixed-operators': 'error',
+    // Disallow mixed spaces and tabs for indentation
+    'no-mixed-spaces-and-tabs': 'error',
+    // Disallow use of chained assignment expressions
+    'no-multi-assign': 'error',
+    // Disallow multiple empty lines
+    'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
+    // Disallow nested ternary expressions
+    'no-nested-ternary': 'error',
     // Require semicolons instead of ASI
     'semi': ['error', 'always'],
 
