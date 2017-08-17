@@ -117,21 +117,28 @@ module.exports = {
     'id-length': ['error', { max: 64 }],
     // Enforce consistent indentation
     // TODO: Apply more options
-    'indent': ['error', 2, {
-      'SwitchCase': 1,
-      'ArrayExpression': 1,
-      'ObjectExpression': 1,
-      'ImportDeclaration': 1
-    }],
+    'indent': [
+      'error',
+      2,
+      {
+        SwitchCase: 1,
+        ArrayExpression: 1,
+        ObjectExpression: 1,
+        ImportDeclaration: 1
+      }
+    ],
     // Enforce consistent spacing between keys and values in object literals
-    'key-spacing': ['error', {
-      // Disallow spaces between the key and the colon
-      beforeColon: false,
-      // Require at least one space between the colon and the value
-      afterColon: true,
-      // Enforce exactly one space before or after colons
-      mode: 'strict'
-    }],
+    'key-spacing': [
+      'error',
+      {
+        // Disallow spaces between the key and the colon
+        beforeColon: false,
+        // Require at least one space between the colon and the value
+        afterColon: true,
+        // Enforce exactly one space before or after colons
+        mode: 'strict'
+      }
+    ],
     // Enforce position of line comments
     'line-comment-position': ['error', { position: 'above' }],
     // Enforce consistent linebreak style
@@ -162,13 +169,29 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
     // Disallow nested ternary expressions
     'no-nested-ternary': 'error',
+    // Disallow all tabs
+    'no-tabs': 'error',
+    // Disallow trailing whitespace at the end of lines
+    'no-trailing-spaces': [
+      'error',
+      { skipBlankLines: false, ignoreComments: false }
+    ],
+    // Disallow dangling underscores in identifiers
+    'no-underscore-dangle': ['error', { enforceInMethodNames: true }],
+    // Disallow ternary operators when simpler alternatives exist
+    'no-unneeded-ternary': ['error', { defaultAssignment: false }],
+    // Disallow whitespace before properties
+    'no-whitespace-before-property': 'error',
     // Enforce consistent spacing inside braces
     'object-curly-spacing': ['error', 'always'],
     // Enforce placing object properties on separate lines
-    'object-property-newline': ['error', {
-      // Allow all keys and values to be on the same line
-      allowMultiplePropertiesPerLine: true
-    }],
+    'object-property-newline': [
+      'error',
+      {
+        // Allow all keys and values to be on the same line
+        allowMultiplePropertiesPerLine: true
+      }
+    ],
     // Allow just one var statement per function
     'one-var': ['error', 'never'],
     // Require a newline around variable declaration
@@ -182,10 +205,14 @@ module.exports = {
     // Require quotes around object literal property names
     'quote-props': ['error', 'consistent'],
     // Enforce the consistent use of either backticks, double, or single quotes
-    'quotes': ['error', 'single', {
-      // Allow to use other quotes when the string contains a quote
-      avoidEscape: true
-    }],
+    'quotes': [
+      'error',
+      'single',
+      {
+        // Allow to use other quotes when the string contains a quote
+        avoidEscape: true
+      }
+    ],
     // Require JSDoc comments
     'require-jsdoc': 'off',
     // Require semicolons instead of ASI
@@ -197,11 +224,10 @@ module.exports = {
     // Enfore consistent spacing before blocks
     'space-before-blocks': 'error',
     // Enforce consistent spacing before `function` definition
-    'space-before-function-paren': ['error', {
-      anonymous: 'always',
-      named: 'never',
-      asyncArrow: 'always'
-    }],
+    'space-before-function-paren': [
+      'error',
+      { anonymous: 'always', named: 'never', asyncArrow: 'always' }
+    ],
     // Enforce consistent spacing inside parentheses
     'space-in-parens': ['error', 'never'],
     // Require spacing around infix operators
@@ -209,17 +235,21 @@ module.exports = {
     // Enforce consistent spacing before or after unary operators
     'space-unary-ops': ['error', { words: true, nonwords: false }],
     // Enforce consistent spacing after or in a comment
-    'spaced-comment': ['error', 'always', {
-      line: {
-        exceptions: ['-', '+', '*'],
-        markers: ['=', '!']
-      },
-      block: {
-        exceptions: ['-', '+', '*'],
-        markers: ['=', '!'],
-        balanced: true
+    'spaced-comment': [
+      'error',
+      'always',
+      {
+        line: {
+          exceptions: ['-', '+', '*'],
+          markers: ['=', '!']
+        },
+        block: {
+          exceptions: ['-', '+', '*'],
+          markers: ['=', '!'],
+          balanced: true
+        }
       }
-    }],
+    ],
     // Enforce spacing around colons of switch statements
     'switch-colon-spacing': ['error', { after: true, before: false }],
     // Disallow spacing between template tags and their literals
