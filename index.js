@@ -204,18 +204,18 @@ module.exports = {
     }],
     // Enforce consistent spacing inside parentheses
     'space-in-parens': ['error', 'never'],
-    // TODO: Require spacing around infix operators
-    'space-infix-ops': 'off',
+    // Require spacing around infix operators
+    'space-infix-ops': 'error',
     // Enforce consistent spacing before or after unary operators
     'space-unary-ops': ['error', { words: true, nonwords: false }],
     // Enforce consistent spacing after or in a comment
     'spaced-comment': ['error', 'always', {
       line: {
-        exceptions: ['-', '+'],
+        exceptions: ['-', '+', '*'],
         markers: ['=', '!']
       },
       block: {
-        exceptions: ['-', '+'],
+        exceptions: ['-', '+', '*'],
         markers: ['=', '!'],
         balanced: true
       }
