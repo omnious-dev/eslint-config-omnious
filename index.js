@@ -190,6 +190,40 @@ module.exports = {
     'require-jsdoc': 'off',
     // Require semicolons instead of ASI
     'semi': ['error', 'always'],
+    // Enforce consistent spacing before and after semicolons
+    'semi-spacing': ['error', { before: false, after: true }],
+    // Enforce location of semicolons
+    'semi-style': ['error', 'last'],
+    // Enfore consistent spacing before blocks
+    'space-before-blocks': 'error',
+    // Enforce consistent spacing before `function` definition
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
+    // Enforce consistent spacing inside parentheses
+    'space-in-parens': ['error', 'never'],
+    // TODO: Require spacing around infix operators
+    'space-infix-ops': 'off',
+    // Enforce consistent spacing before or after unary operators
+    'space-unary-ops': ['error', { words: true, nonwords: false }],
+    // Enforce consistent spacing after or in a comment
+    'spaced-comment': ['error', 'always', {
+      line: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!']
+      },
+      block: {
+        exceptions: ['-', '+'],
+        markers: ['=', '!'],
+        balanced: true
+      }
+    }],
+    // Enforce spacing around colons of switch statements
+    'switch-colon-spacing': ['error', { after: true, before: false }],
+    // Disallow spacing between template tags and their literals
+    'template-tag-spacing': 'error',
 
     /*
      * ECMAScript 6
