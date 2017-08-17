@@ -144,7 +144,6 @@ module.exports = {
     // Enforce consistent linebreak style
     'linebreak-style': ['error', 'unix'],
     // Enforce a maximum depth that blocks can be nested
-    // 'max-len': ['error', 100],
     'max-depth': ['warn', 4],
     // TODO: Enforce a maximum line length
     // 'max-len': ['error', 100],
