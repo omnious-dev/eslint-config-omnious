@@ -44,9 +44,9 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     // Disallow unreachable code
     'no-unreachable': 'error',
-    // TODO: Apply more options
+    // TODO: Research later
     // Enforce JSDoc comment style
-    'valid-jsdoc': 'error',
+    'valid-jsdoc': 'off',
     // Enforce comparing `typeof` expressions against valid strings
     'valid-typeof': 'error',
 
@@ -100,7 +100,7 @@ module.exports = {
     // TODO: Enforce camelcase naming convention
     'camelcase': 'off',
     // Enforce capitalization of the first letter of a comment
-    'capitalized-comments': 'error',
+    'capitalized-comments': 'off',
     // TODO: Require trailing commas
     'comma-dangle': 'off',
     // Enforce consistent spacing before and after commas
@@ -148,7 +148,7 @@ module.exports = {
     // TODO: Enforce a maximum line length
     // 'max-len': ['error', 100],
     // Require constructor names to begin with a capital letter
-    'new-cap': ['error', { newIsCap: true }],
+    'new-cap': ['error', { newIsCap: true, capIsNew: false }],
     // Require parentheses when invoking a constructor with no arguments
     'new-parens': 'error',
     // Require a newline after each call in a method chain
