@@ -11,6 +11,18 @@
 </p>
 
 <div align="center">
+  <a href="https://circleci.com/gh/omnious-dev/eslint-config-omnious">
+    <img alt="CircleCI" src="https://circleci.com/gh/omnious-dev/eslint-config-omnious.svg?style=shield" />
+  </a>
+  <a href="https://badge.fury.io/js/eslint-config-omnious">
+    <img alt="npm version" src="https://badge.fury.io/js/eslint-config-omnious.svg" />
+  </a>
+  <a href="https://www.npmjs.com/package/eslint-config-omnious">
+    <img alt="npm" src="https://img.shields.io/npm/dt/eslint-config-omnious.svg" />
+  </a>
+  <a href="https://david-dm.org/omnious-dev/eslint-config-omnious">
+    <img alt="npm" src="https://img.shields.io/david/omnious-dev/eslint-config-omnious.svg?style=flat-square" />
+  </a>
   <a href="https://opensource.org/licenses/mit-license.php">
     <img alt="MIT Licence" src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" />
   </a>
