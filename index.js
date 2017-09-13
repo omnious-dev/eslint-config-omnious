@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: 'eslint:recommended',
   parserOptions: {
@@ -62,7 +64,7 @@ module.exports = {
      * Strict Mode
      */
     // Require or disallow strict mode directives
-    'strict': 'error',
+    // 'strict': 'error',
 
     /*
      * Variables

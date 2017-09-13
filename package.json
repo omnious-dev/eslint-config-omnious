@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-omnious",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "ESLint shareable config for the Omnious JavaScript style guide",
   "homepage": "https://github.com/omnious-dev/eslint-config-omnious",
   "author": "Omnious Dev Team <dev@omnious.com> (https://www.omnious.com)",
@@ -37,7 +37,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "devDependencies": {
     "eslint": "4.4.1"
