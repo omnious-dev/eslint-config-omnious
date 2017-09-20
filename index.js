@@ -116,7 +116,7 @@ module.exports = {
     // Disallow spacing between function identifiers and their invocations
     'func-call-spacing': ['error', 'never'],
     // Enforce minimum and maximum identifier lengths
-    'id-length': ['error', { max: 64 }],
+    'id-length': ['error', { min: 1, max: 64 }],
     // Enforce consistent indentation
     // TODO: Apply more options
     'indent': [
