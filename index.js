@@ -4,6 +4,9 @@ module.exports = {
   extends: 'eslint:recommended',
   parserOptions: {
     ecmaVersion: 2017,
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    },
     sourceType: 'module'
   },
   env: {
@@ -261,6 +264,8 @@ module.exports = {
      * ECMAScript 6
      */
     // Require let or const instead of var
-    'no-var': 'error'
+    'no-var': 'error',
+    // Enforce spacing between rest and spread operators and their expressions
+    'rest-spread-spacing': ['error', 'never']
   }
 };
