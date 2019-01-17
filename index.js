@@ -59,7 +59,7 @@ module.exports = {
      * Best Practices
      */
     // Enforce consistent brace style for all control statements
-    'curly': ['error', 'multi-or-nest', 'consistent'],
+    'curly': ['error', 'all'],
     // Require the use of === and !==
     'eqeqeq': ['error', 'always', { null: 'ignore' }],
 
@@ -177,10 +177,7 @@ module.exports = {
     // Disallow all tabs
     'no-tabs': 'error',
     // Disallow trailing whitespace at the end of lines
-    'no-trailing-spaces': [
-      'error',
-      { skipBlankLines: false, ignoreComments: false }
-    ],
+    'no-trailing-spaces': 'off',
     // Disallow dangling underscores in identifiers
     'no-underscore-dangle': ['error', { enforceInMethodNames: true }],
     // Disallow ternary operators when simpler alternatives exist
